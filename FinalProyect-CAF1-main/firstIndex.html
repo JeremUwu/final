@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Font Familys -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet"> 
+    <!-- CSS Link index -->
+    <link rel="stylesheet" href="firstStyles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <title>Fisioteca</title>
+</head>
+<body>
+    <!-- ENCABEZADO -->
+    <header>
+        <div class="header">
+            <!-- Barra de logo y secciones -->
+            <nav class="navBar">
+                <div class="logo"> <!--LOGO-->
+                    <img src="img1/logofisioteca.png" alt="Fisioteca">
+                    <h2>Fisioteca</h2>
+                </div>
+                
+                <ul class="listSections"> <!-- Secciones -->
+                    <li><a href="">Noticias</a></li>
+                    <li><a href="https://utpedupe-my.sharepoint.com/:f:/g/personal/u21101322_utp_edu_pe/Ekc9tuXgKJBMuPu0ZjYQmgcB1Jy00lcicF3CI-TmxXp_Iw?e=heHcVH">Recursos</a></li>
+                    <li><a href="micuenta.html">Sugerencia</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- CUERPO -->
+    <section class="main">
+
+        <section class="slider">
+            <div class="slider-container">
+                <img src="img1/arrowLeft.svg" class="slider-arrow" id="before">
+
+                <!-- Contenedor de un slider -->
+                <div class="slider-body show" data-id="1">
+                    <!-- Caja de texto del slider -->
+                    <div class="slider-text">
+                        <a href="https://www.bbc.com/mundo/noticias-59262024" class="subtittle">El “tsunami” de ondas gravitacionales</a>
+                        <div class="sliderReview">Gracias a la alianza de 3 telescopios: LIGO (EE. UU.), Virgo (Italia) y KARGA (Japón), desde el año pasado detectamos lo que ahora vendría a ser un “tsunami” de ondas gravitacionales, debido a su concurrencia. Estas ondas ocurren por la colisión de 2 agujeros negros.</div>
+                    </div>
+                    <!-- <a href=""></a> -->
+                    <!-- Imagen del slider -->
+                    <figure class="slider-picture">
+                        <img src="img1/ondas.jpg" class="slider-img">
+                    </figure>
+                </div>
+
+                <!-- Contenedor de un slider -->
+                <div class="slider-body" data-id="2">
+                    <!-- Caja de texto del slider -->
+                    <div class="slider-text">
+                        <a href="https://www.elperiodico.com/es/entre-todos/20210423/quinta-fuerza-naturaleza-entender--ciencia-michele-catanzaro-11668923" class="subtittle">¿Nuevas restricciones por una quinta fuerza? </a>
+                        <div class="sliderReview">Sabemos que las interacciones físicas que ocurren en nuestro mundo conocido están limitadas por cuatro fuerzas fundamentales (nuclear fuerte, nuclear débil, gravedad y electromagnética). Sin embargo, científicos hipotetizan que haya una quinta fuerza gracias a un experimento con neutrones y una placa mecanizada de Silicio.</div>
+                    </div>
+                    <!-- Imagen del slider -->
+                    <figure class="slider-picture">
+                        <img src="img1/slide2.jpg" class="slider-img">
+                    </figure>
+                </div>
+
+                <!-- Contenedor de un slider -->
+                <div class="slider-body" data-id="3">
+                    <!-- Caja de texto del slider -->
+                    <div class="slider-text">
+                        <a href="https://www.elperiodico.com/es/ciencia/20191023/ordenador-cuantico-google-ibm-7698074" class="subtittle">Google da un paso gigante hacia el ordenador cuántico </a>
+                        <div class="sliderReview">Un prototipo de ordenador cuántico mucho mas potente y preciso. La idea del ordenador cuántico es utilizar las propiedades de las partículas microscópicas (descritas por la teoría de la mecánica cuántica) para lograr cálculos y procedimientos más rápidos y eficaces. Sin embargo, de momento solo hay prototipos que logran hacer lo que un ordenador común pueda lograr, solo que más rápido.</div>
+                    </div>
+                    <!-- Imagen del slider -->
+                    <figure class="slider-picture">
+                        <img src="img1/slide3.jpg" class="slider-img">
+                    </figure>
+                </div>
+
+                <!-- Contenedor de un slider -->
+                <div class="slider-body" data-id="4"> <!--Data id debe aumentarse en 1-->
+                    <!-- Caja de texto del slider -->
+                    <div class="slider-text">
+                        <a href="https://www.elperiodico.com/es/ciencia/20190627/fisicos-espanoles-descubren-una-nueva-propiedad-de-la-luz-7525550" class="subtittle">Físicos españoles descubren una nueva propiedad de la luz</a>
+                        <div class="sliderReview">Un grupo científicos españoles estuvieron trabajando con haces de luz (luz laser), ya usados para las telecomunicaciones; con el fin de mejorarlas. En el proyecto, se contemplo que el haz de luz generado tenía forma de “hélice con un extremo achatado y otro alargado”, del cual se pudo concluir que, al exponerse a otro objeto, este se podría escudriñar, así logrando conocer más sobre su composición y sus propiedades físicas.</div>
+                    </div>
+                    <!-- Imagen del slider -->
+                    <figure class="slider-picture">
+                        <img src="img1/slide4.jpg" class="slider-img">
+                    </figure>
+                </div>
+
+
+                <img src="img1/arrowRight.svg" class="slider-arrow" id="next">
+            </div>
+        </section>
+
+        <section class="units">
+            <div class="grid-container">
+                <div class="cellGrid">
+                    <img src="img1/grid1.png" alt="">
+                    <div class="overlay">
+                        <div class="txt"><p>Al finalizar la unidad, el estudiante explica el movimiento de una partícula calculando magnitudes a partir de las ecuaciones de movimiento y/o gráficos de movimiento.</p><a href="Unidad 1.html" class="btn btn-primary stretched-link">Click aquí</a></div>
+                    </div>
+                </div>
+                <div class="cellGrid">
+                    <img src="img1/equil.jpg" alt="">
+                    <div class="overlay">
+                        <div class="txt"><p>Al finalizar la unidad, el estudiante aplica las condiciones de equilibrio en cuerpos rígidos en su estado de reposo o equilibrio dinámico.</p></div><a href="Unidad2.html" class="btn btn-primary stretched-link">Click aquí</a>
+                    </div>
+                </div>
+                <div class="cellGrid">
+                    <img src="img1/dinam.png" alt="">
+                    <div class="overlay">
+                        <div class="txt"><p>Al finalizar la unidad, el estudiante aplica las leyes de la dinámica en el movimiento de partículas y en el cálculo de magnitudes físicas.</p><a href="Unidad3.html" class="btn btn-primary stretched-link">Click aquí</a></div>
+                    </div>
+                </div>
+                <div class="cellGrid">
+                    <img src="img1/conser.jpg" alt="">
+                    <div class="overlay">
+                        <div class="txt"><p>Al finalizar la unidad, el estudiante determina magnitudes físicas utilizando la ley de conservación de la energía mecánica y el teorema trabajo-energía.</p><a href="unidad4.html" class="btn btn-primary stretched-link">Click aquí</a></div>
+                    </div>
+                </div>
+                <div class="cellGrid">
+                    <img src="img1/iner.jpg" alt="">
+                    <div class="overlay">
+                        <div class="txt"><p>Al finalizar la unidad, el estudiante aplica los modelos matemáticos de la mecánica al movimiento del cuerpo rígido en el cálculo su momento de inercia.</p><a href="U5.html" class="btn btn-primary stretched-link">Click aquí</a></div>
+                    </div>
+                </div>
+                <div class="cellGrid">
+                    <img src="img1/curie.jpg" alt="">
+                    <div class="overlay">
+                        <div class="txt"><p>En esta área podrás acceder a algunos libros que recomendamos sean leidos y estudiados.</p><a href="https://utpedupe-my.sharepoint.com/:f:/g/personal/u21101322_utp_edu_pe/Ekc9tuXgKJBMuPu0ZjYQmgcB1Jy00lcicF3CI-TmxXp_Iw?e=heHcVH"  class="btn btn-primary stretched-link">Click aquí</a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </section>
+
+    <!-- PIE DE PAGINA -->
+    <footer>
+        <div class="footer">
+            <div class="contactos">
+                <p>Visitanos en nuestras redes: </p>
+                <div class="linksContainer">
+                   <a href="https://www.facebook.com/Fisioteca-110021174836930"><i class="fab fa-facebook-square"></i></a>
+                    <a href="https://twitter.com/fisioteca5"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/fisioteca5/"><i class="fab fa-instagram-square"></i></a>
+                </div>
+                <p>Envianos un email al: <span>fisioteca5@gmail.com</span></p>
+            </div>
+            <div class="acercaDe">
+                <p> <span>Grupo de Fisica 1°</span>  - Este trabajo resulto de la colaboracion de personas dedicadas y responsables: Abel Mechan Castro, Rodrigo Medina Allende, Mauricio Milian Sanchez, Victor Moran Torres, Emanuel Ortiz de Orue Cabezas, Abigail Ortiz Navarro, Joe Otero Miranda y Jeremy Palomino Ascarza</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" ></script>
+</body>
+</html>
